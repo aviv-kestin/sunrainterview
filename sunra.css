@@ -1,0 +1,471 @@
+html{
+  
+    font-size: 8.5px;
+    font-family: Neureal;
+
+    
+}
+
+
+
+
+
+@font-face {
+    font-family: Neureal;
+    src: url(NeurealTrial-Regular\ copy.otf);
+  }
+
+ 
+
+
+
+.q1 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    flex-direction:column;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 11;
+    font-size: 3.1rem;
+}
+
+.q1text {
+    width: 70vw;
+    height: auto;
+}
+
+.a1 {
+    background-color: rgb(17, 34, 76);
+    color: rgb(70, 167, 196);  
+    display: flex;
+    flex-direction:column;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    font-size: 3.1rem;
+}
+
+.a1text {
+    width: 70vw;
+    height:auto;
+}
+
+
+.q2 {
+    background-color: white;
+    color: rgb(0, 0, 0);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    font-size: 3.1rem;
+}
+
+.q2text {
+    width: 70vw;
+    height: auto;
+}
+
+.a2 {
+    background-color: rgb(34, 77, 35);
+    color: rgb(44, 217, 107);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 8;
+    font-size: 3.1rem;
+}
+
+.a2text {
+    width: 70vw;
+    height: auto;
+}
+
+.q3 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 7;
+    font-size: 3.1rem;
+}
+
+.q3text {
+    width: 70vw;
+    height: auto;
+}
+
+.a3 {
+    background-color: rgb(22, 5, 57);
+    color: rgb(200, 154, 243);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 6;
+    font-size: 3.1rem;
+}
+
+.a3text {
+    width: 70vw;
+    height: 75vh;
+}
+
+.q4 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    font-size: 3.1rem;
+}
+
+.q4text {
+    width: 70vw;
+    height: auto;
+}
+
+.a4 {
+    background-color: rgb(59, 39, 32);
+    color: rgb(255, 177, 151);
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    font-size: 3.1rem;
+}
+
+.a4text {
+    width: 70vw;
+    height: auto;
+}
+
+.q5 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    font-size: 3.1rem;
+}
+
+.q5text {
+    width: 70vw;
+    height: auto;
+}
+
+.a5 {
+    background-color: rgb(39, 52, 68);
+    color: rgb(56, 136, 248);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    font-size: 3.1rem;
+}
+
+.a5text {
+    width: 70vw;
+    height: auto;
+}
+
+.q6 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    font-size: 3.1rem;
+}
+
+.q6text {
+    width: 70vw;
+    height: auto;
+}
+
+.a6 {
+    background-color: rgb(46, 68, 51);
+    color: rgb(145, 234, 198);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    font-size: 3.1rem;
+}
+
+.a6text {
+    width: 70vw;
+    height: auto;
+}
+
+.q7 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    font-size: 3.1rem;
+}
+
+.q7text {
+    width: 70vw;
+    height: auto;
+}
+
+.a7 {
+    background-color: rgb(78, 20, 20);
+    color: rgb(242, 80, 80);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    font-size: 3.1rem;
+}
+
+.a7text {
+    width: 70vw;
+    height: auto;
+}
+
+.q8 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -3;
+    font-size: 3.1rem;
+}
+
+.q8text {
+    width: 70vw;
+    height: auto;
+}
+
+.a8 {
+    background-color: rgb(30, 48, 50);
+    color: rgb(125, 233, 238);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -4;
+    font-size: 3.1rem;
+}
+
+.a8text {
+    width: 70vw;
+    height: auto;
+}
+
+.q9 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
+    font-size: 3.1rem;
+}
+
+.q9text {
+    width: 70vw;
+    height: auto;
+}
+
+.a9 {
+    background-color: rgb(33, 42, 34);
+    color: rgb(225, 89, 51);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -6;
+    font-size: 3.1rem;
+}
+
+.a9text {
+    width: 70vw;
+    height: auto;
+}
+
+.q10 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -7;
+    font-size: 3.1rem;
+}
+
+.q10text {
+    width: 70vw;
+    height: auto;
+}
+
+.a10 {
+    background-color: rgb(85, 83, 53);
+    color: rgb(223, 216, 80);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -8;
+    font-size: 3.1rem;
+}
+
+.a10text {
+    width: 70vw;
+    height: 80vh;
+}
+
+.q11 {
+    background-color: white;
+    color: black;  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -9;
+    font-size: 3.1rem;
+}
+
+.q11text {
+    width: 70vw;
+    height: auto;
+}
+
+.a11 {
+    background-color: rgb(54, 57, 65);
+    color: rgb(237, 61, 61);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+    font-size: 3.1rem;
+}
+
+.a11text {
+    width: 70vw;
+    height: auto;
+}
+
+.end {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);  
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -11;
+    font-size: 3.1rem;
+}
+
+.endtext {
+    width: 70vw;
+    height: auto;
+}
+
+
+.click {
+    position: fixed;
+    right: 1.3vw;
+    top: 2vh;
+    font-size: 120%;
+    z-index: 12;
+    font-size: 2rem;
+    color: palevioletred;
+}
